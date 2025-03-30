@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b33c2144f5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Karina</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__text">Hello Karina Would you like to answer a question ?</div>
+        <div class="header__logo"><i class="fa-solid fa-heart"></i></div>
+    </div>
+    <div class="questions">
+        <div class="question">
+            <div class="question__text">
+                Do you love me ?
+            </div>
+            <i class="fa-solid fa-heart-pulse question__icon"></i>
+            <div class="question__answers">
+                <span id="successBtn" class="question__answer -yes">Yes</span>
+                <span id="firstBtn" class="question__answer -first">No</span>
+            </div>
+        </div>
+    </div>
+    <div id="firstNotify" class="notify -danger">
+        <div class="notify__icon"><i class="fa-solid fa-face-kiss-beam"></i></div>
+        <div class="notify__text">You missed, try again</div>
+    </div>
+    <div id="secondNotify" class="notify -warning">
+        <div class="notify__icon"><i class="fa-solid fa-face-grin-squint-tears"></i></div>
+        <div class="notify__text">Wrong answer again, try again</div>
+    </div>
+    <div id="thirdNotify" class="notify -success">
+        <div class="notify__icon"><i class="fa-solid fa-heart-circle-check"></i></div>
+        <div class="notify__text">Thats right, wait a bit</div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__header">
+                <i id="close" class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="modal__body">
+                <img class="modal__photo" src="photo.jpg" alt="karina">
+                <p class="modal__text">I love you too the best woman in the world</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
